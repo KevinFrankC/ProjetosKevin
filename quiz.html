@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Quiz Interativo para Programadores</h1>
+    <p>Responda as perguntas e veja sua pontuação!</p>
+</header>
+<main>
+    <!-- Perguntas -->
+    <section>
+        <h2>Pergunta 1: Qual linguagem é usada para estruturar páginas HTML?</h2>
+        <input type="radio" name="p1" value="python"> Python<br>
+        <input type="radio" name="p1" value="HTML"> HTML<br>
+        <input type="radio" name="p1" value="CSS"> CSS<br>
+    </section>
+    <section>
+        <h2>Pergunta 2: Na URL http://www.google.com o trecho "google.com" é o ___</h2>
+        <input type="text" id="p2" placeholder="Digite sua resposta">
+    </section>
+    <section>
+        <h2>Pergunta 3: Escreva um exemplo de senha forte:</h2>
+        <input type="password" id="p3" placeholder="Digite sua resposta">
+    </section>
+    <section>
+        <h2>Pergunta 4: Em que ano o HTML lançou sua primeira versão?</h2>
+        <input type="date" id="p4">
+    </section>
+    <section>
+        <h2>Pergunta 5: Quais dessas são linguagens de programação?</h2>
+        <input type="checkbox" name="p5" value="JavaScript"> JavaScript<br>
+        <input type="checkbox" name="p5" value="HTML"> HTML<br>
+        <input type="checkbox" name="p5" value="CSS"> CSS<br>
+    </section>
+    <section>
+        <h2>Pergunta 6: Faça o upload de um arquivo HTML:</h2>
+        <input type="file" id="p6" accept=".html">
+    </section>
+    <section>
+        <h2>Pergunta 7: Selecione o atributo do input que define seu tipo:</h2>
+        <select id="p7">
+            <option value="text">Text</option>
+            <option value="password">Password</option>
+            <option value="email">Email</option>
+            <option value="number">Number</option>
+        </select>
+    </section>
+    <section>
+        <h2>Pergunta 8: Qual linguagem de programação é representada pela logo abaixo?</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Logo JavaScript" width="80"><br>
+        <input type="text" id="p8" placeholder="Digite sua resposta">
+    </section>
+    
+        <!-- Tabela de Avaliação -->
+    <section>
+        <details>
+            <summary>Ver tabela de avaliação</summary>
+            <table border="1" cellpadding="5" style="margin-top:10px; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 - 3</td>
+                        <td>Precisa estudar mais!</td>
+                    </tr>
+                    <tr>
+                        <td>4 - 6</td>
+                        <td>Você está no caminho certo!</td>
+                    </tr>
+                    <tr>
+                        <td>7 - 8</td>
+                        <td>Ótimo trabalho!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
+    </section>
+
+    <!-- Campos de feedback -->
+    <section>
+        <h2>Nos dê seu feedback</h2>
+        <input type="text" id="name" placeholder="Seu nome"><br>
+        <input type="email" id="email" placeholder="Seu e-mail"><br>
+        <textarea id="feedback" rows="4" placeholder="Digite seu feedback"></textarea>
+        <button id="feedback">Enviar feedback</button>
+    </section>
+
+    
+    <!-- Botão Finalizar -->
+  <section>
+        <button id="finalizarQuiz">Finalizar Quiz</button>
+    </section>
+    Sobre o Kevin
+    <section>
+        <p>Para saber mais sobre mim, visite a página <a href="sobre.html">Sobre o mim</a>.</p>
+    </section>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
