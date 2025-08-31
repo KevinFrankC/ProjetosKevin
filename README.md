@@ -1,3 +1,3 @@
 # ProjetosKevin
 
-Repositorio destinado aos projetos de estudo.
+Repositório destinado aos projetos de estudo.
